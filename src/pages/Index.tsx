@@ -20,7 +20,7 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="text-center space-y-4">
             <p className="text-muted-foreground">
-              © 2024 John Developer. Built with React, TypeScript & Tailwind CSS.
+              © 2024 Mukeshraj. Built with React, TypeScript & Tailwind CSS.
             </p>
             <p className="text-sm text-muted-foreground">
               Designed and developed with ❤️ for amazing projects.
