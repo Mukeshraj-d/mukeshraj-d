@@ -13,23 +13,12 @@ const About = () => {
             {/* Profile Photo Section */}
             <div className="order-2 lg:order-1 flex justify-center animate-fade-in">
               <div className="relative">
-                <div className="w-80 h-80 rounded-2xl bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center border-2 border-dashed border-primary/30 glass-card group hover:scale-105 transition-all duration-300">
-                  <div className="text-center space-y-4">
-                    <div className="w-20 h-20 mx-auto rounded-full bg-primary/10 flex items-center justify-center">
-                      <svg 
-                        className="w-10 h-10 text-primary" 
-                        fill="none" 
-                        stroke="currentColor" 
-                        viewBox="0 0 24 24"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-semibold text-primary mb-2">Add Your Photo</h3>
-                      <p className="text-sm text-muted-foreground">Upload your professional photo here</p>
-                    </div>
-                  </div>
+                <div className="w-80 h-80 rounded-2xl overflow-hidden glass-card group hover:scale-105 transition-all duration-300 border border-primary/20">
+                  <img 
+                    src="/mukeshraj-photo.png" 
+                    alt="Mukeshraj - Professional Developer" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="absolute -inset-4 bg-gradient-to-r from-primary to-accent rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-300 -z-10"></div>
               </div>
