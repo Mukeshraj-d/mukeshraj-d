@@ -10,21 +10,8 @@ const About = () => {
           </h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Profile Photo Section */}
-            <div className="order-2 lg:order-1 flex justify-center animate-fade-in">
-              <div className="relative">
-                <div className="w-80 h-80 rounded-2xl overflow-hidden glass-card group hover:scale-105 transition-all duration-300 border border-primary/20">
-                  <img 
-                    src="/mukeshraj-photo.png" 
-                    alt="Mukeshraj - Professional Developer" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="absolute -inset-4 bg-gradient-to-r from-primary to-accent rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-300 -z-10"></div>
-              </div>
-            </div>
-            
-            <div className="order-1 lg:order-2 space-y-6 animate-slide-in">
+
+            <div className="space-y-6 animate-slide-in">
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Hello! I'm Mukeshraj, a passionate developer who loves creating digital experiences 
                 that make a difference. My journey in technology started with curiosity and has 
@@ -46,7 +33,7 @@ const About = () => {
               </div>
             </div>
             
-            <div className="order-3 lg:order-3 relative">
+            <div className="relative">
               <Card className="glass-card p-8 animate-fade-in">
                 <h3 className="text-xl font-semibold mb-6 text-center">My Approach</h3>
                 <div className="space-y-4">
