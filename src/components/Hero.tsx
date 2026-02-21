@@ -20,11 +20,11 @@ const Hero = () => {
             Mukeshraj
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-slide-in">
-            Full Stack Developer & UI/UX Enthusiast
+            B.Tech. I.T. | Aspiring Web Developer
           </p>
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            I craft beautiful, functional web experiences with modern technologies. 
-            Passionate about clean code, stunning design, and solving complex problems.
+            A passionate B.Tech IT student building modern web experiences. 
+            Eager to learn, grow, and create impactful digital solutions.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">

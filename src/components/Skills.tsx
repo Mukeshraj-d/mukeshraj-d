@@ -5,28 +5,19 @@ const Skills = () => {
     {
       title: "Frontend Development",
       skills: [
-        { name: "React", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Tailwind CSS", level: 92 },
-        { name: "Vue.js", level: 85 },
+        { name: "HTML", level: 90 },
+        { name: "CSS", level: 88 },
+        { name: "JavaScript", level: 85 },
+        { name: "React", level: 80 },
+        { name: "Tailwind CSS", level: 82 },
       ],
     },
     {
-      title: "Backend Development",
+      title: "Programming Languages",
       skills: [
-        { name: "Node.js", level: 88 },
-        { name: "Python", level: 82 },
-        { name: "PostgreSQL", level: 85 },
-        { name: "MongoDB", level: 80 },
-      ],
-    },
-    {
-      title: "Tools & Technologies",
-      skills: [
-        { name: "Git", level: 93 },
-        { name: "Docker", level: 78 },
-        { name: "AWS", level: 75 },
-        { name: "Figma", level: 88 },
+        { name: "Java", level: 78 },
+        { name: "Python", level: 75 },
+        { name: "SQL", level: 80 },
       ],
     },
   ];
@@ -73,24 +64,6 @@ const Skills = () => {
             ))}
           </div>
           
-          {/* Additional Technologies */}
-          <div className="mt-16 text-center">
-            <h3 className="text-2xl font-semibold mb-8">Other Technologies I Work With</h3>
-            <div className="flex flex-wrap justify-center gap-3">
-              {[
-                "JavaScript", "HTML5", "CSS3", "SASS", "Redux", "Next.js",
-                "Express.js", "GraphQL", "REST APIs", "Jest", "Cypress",
-                "Firebase", "Supabase", "Vercel", "Netlify"
-              ].map((tech, index) => (
-                <span
-                  key={index}
-                  className="px-4 py-2 bg-muted rounded-full text-sm font-medium hover:bg-primary hover:text-primary-foreground transition-all duration-300 cursor-default"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </div>
         </div>
       </div>
     </section>

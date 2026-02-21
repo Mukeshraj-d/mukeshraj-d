@@ -6,26 +6,18 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and order processing.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
+      title: "Smart Donation Mapping",
+      description: "A platform that connects donors with nearby causes using smart mapping technology, making charitable giving more accessible and transparent.",
+      image: "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=600&h=400&fit=crop",
+      tech: ["HTML", "CSS", "JavaScript", "React"],
       github: "https://github.com",
       live: "https://demo.com"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      tech: ["Vue.js", "Firebase", "Tailwind CSS"],
-      github: "https://github.com",
-      live: "https://demo.com"
-    },
-    {
-      title: "Weather Dashboard",
-      description: "A responsive weather dashboard with location-based forecasts, interactive charts, and weather alerts using OpenWeather API.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      tech: ["TypeScript", "Chart.js", "API Integration"],
+      title: "Musify - Music Application",
+      description: "A responsive music application UI with a modern interface for browsing, playing, and managing music playlists seamlessly across devices.",
+      image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&h=400&fit=crop",
+      tech: ["React", "Tailwind CSS", "JavaScript"],
       github: "https://github.com",
       live: "https://demo.com"
     }
