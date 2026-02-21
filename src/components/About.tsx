@@ -24,12 +24,11 @@ const About = () => {
                 full-stack applications, I'm committed to delivering high-quality results.
               </p>
               
-              <div className="grid grid-cols-2 gap-4 pt-6">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">5+</div>
-                  <div className="text-sm text-muted-foreground">Projects Completed</div>
-                </div>
-                
+              <div className="pt-6">
+                <h3 className="text-2xl font-bold text-primary mb-3">Internship</h3>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  I completed my internship at <span className="font-semibold text-foreground">TEK PYRAMID</span> — a unit of Test Yantra Software Solutions Pvt. Ltd., where I gained valuable industry experience and developed practical skills in building web applications. This hands-on opportunity strengthened my understanding of real-world development workflows, collaborative coding practices, and delivering quality solutions within professional environments.
+                </p>
               </div>
             </div>
             
