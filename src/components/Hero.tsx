@@ -45,7 +45,7 @@ const Hero = () => {
           
           <div className="flex justify-center space-x-6 mb-12">
             <a 
-              href="https://github.com" 
+              href="https://github.com/Mukeshraj-d" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110"
@@ -53,7 +53,7 @@ const Hero = () => {
               <Github size={28} />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/mukeshraj-d/ 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-accent transition-all duration-300 hover:scale-110"
@@ -61,7 +61,7 @@ const Hero = () => {
               <Linkedin size={28} />
             </a>
             <a 
-              href="mailto:mukeshraj@example.com"
+              href="mailto:dmukeshraj24112005@gmail.com"
               className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110"
             >
               <Mail size={28} />
