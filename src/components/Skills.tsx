@@ -5,7 +5,7 @@ const Skills = () => {
     {
       title: "Frontend Development",
       skills: [
-        { name: "HTML", level: 92 },
+        { name: "HTML", level: 93 },
         { name: "CSS", level: 88 },
         { name: "JavaScript", level: 85 },
         { name: "React", level: 80 },
