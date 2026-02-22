@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -16,11 +17,19 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-glow">
+          <h1 className="py-4 text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-glow">
             Mukeshraj
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-slide-in">
-            B.Tech. I.T. | Aspiring Web Developer
+           <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-slide-in">
+            <Typewriter
+        options={{
+          strings: ["B.Tech. I.T. Student", "Aspiring Web Developer", "Tech Enthusiast"],
+          autoStart: true,
+          loop: true,
+          delay: 60,
+          deleteSpeed: 40,
+        }}
+            />
           </p>
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
             A passionate B.Tech IT student building modern web experiences. 
