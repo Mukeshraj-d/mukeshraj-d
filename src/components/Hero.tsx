@@ -80,7 +80,7 @@ const Hero = () => {
         
         <button 
           onClick={() => scrollToSection('about')}
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-muted-foreground hover:text-accent transition-all duration-300 animate-bounce"
+          className="absolute hover:border rounded-full p-2 hover:bg-background/100 left-1/2 transform -translate-x-1/2 text-muted-foreground hover:text-accent transition-all duration-300 animate-bounce"
         >
           <ArrowDown size={32} />
         </button>
