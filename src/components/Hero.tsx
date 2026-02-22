@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-glow">
-            Mukeshraj D
+            Mukeshraj
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-slide-in">
             B.Tech. I.T. | Aspiring Web Developer
